@@ -1,5 +1,8 @@
 // TRY: 練習問題１
-
+let n1 = 57054 + 57052
+console.log(n1)
+let n2 = "114" + "106"
+console.log(n2)
 // TRY: 練習問題２
 
 // TRY: 練習問題３
