@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <html lang="ja">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Document</title>
+   </head>
+   <body>
+     <h1 id="quizcontent">さっきーのお兄ちゃんの名前は？</h1>
+     <div id>
+       <button id="quizchoice1">ゆういち</button>
+       <button id="quizchoice2">こうじ</button>
+       <button id="quizchoice3">ともひろ</button>
+     </div>
+     <div id="quizresult"></div>
+ 
+     <script>
+       const quizchoice1 = document.getElementById("quizchoice1")
+       const quizchoice2 = document.getElementById("quizchoice2")
+       const quizchoice3 = document.getElementById("quizchoice3")
+ 
+       const quizresult = document.getElementById("quizresult")
+ 
+       quizchoice1.onclick = function () {
+         quizresult.textContent = "違います"
+       }
+       quizchoice2.onclick = function () {
+         quizresult.textContent = "違います"
+       }
+       quizchoice3.onclick = function () {
+         quizresult.textContent = "正解です！"
+       }
+     </script>
+   </body>
+ </html>
